@@ -1,7 +1,9 @@
 function Reservationspage() {
   return (
     <>
-      <h1>Reservationspage</h1>
+      <div className="main-flex">
+        <h1>Reservationspage</h1>
+      </div>
     </>
   );
 }

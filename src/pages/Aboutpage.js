@@ -1,7 +1,9 @@
 function Aboutpage() {
   return (
     <>
-      <h1>Aboutpage</h1>
+      <div className="main-flex">
+        <h1>Aboutpage</h1>
+      </div>
     </>
   );
 }

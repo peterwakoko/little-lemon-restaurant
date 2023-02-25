@@ -1,7 +1,9 @@
 function Loginpage() {
   return (
     <>
-      <h1>Loginpage</h1>
+      <div className="main-flex">
+        <h1>Loginpage</h1>
+      </div>
     </>
   );
 }

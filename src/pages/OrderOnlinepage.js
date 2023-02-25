@@ -1,7 +1,9 @@
 function OrderOnlinepage() {
   return (
     <>
-      <h1>OrderOnlinepage</h1>
+      <div className="main-flex">
+        <h1>OrderOnlinepage</h1>
+      </div>
     </>
   );
 }
