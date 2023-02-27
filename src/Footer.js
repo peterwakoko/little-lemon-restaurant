@@ -3,7 +3,7 @@ function Footer() {
     <>
       <div className="footer-flex">
         <div>
-          <h1>Doormat</h1>
+          <h5>Doormat</h5>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -15,7 +15,7 @@ function Footer() {
         </div>
 
         <div>
-          <h1>Contact</h1>
+          <h5>Contact</h5>
           <ul>
             <li>Address</li>
             <li>Phone number</li>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
 
         <div>
-          <h1>Social Media Links</h1>
+          <h5>Social Media Links</h5>
           <ul>
             <li>Address</li>
             <li>Phone number</li>

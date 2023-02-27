@@ -15,7 +15,7 @@ html {
 
 .header-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -24,7 +24,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-left: 30px;
+  margin-left: -165px;
 }
 
 nav ul li {
@@ -39,20 +39,24 @@ nav ul li:hover {
 .nav-item {
   text-decoration: none;
   color: #000;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 13px;
 }
 
 .main-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  /* flex-direction: column; */
   background: #495e57;
+  width: 100%;
+  height: 270px;
 }
 
 .submain-flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .delivery-flex {
@@ -66,7 +70,6 @@ nav ul li:hover {
 .footer-flex {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .footer-flex div {
@@ -75,4 +78,44 @@ nav ul li:hover {
 
 .footer-flex div ul {
   list-style: none;
+}
+
+.online-menu-btn {
+  background: #f4ce14;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 120px;
+  font-weight: 700;
+}
+
+.reserve-table-btn {
+  background: #f4ce14;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.little-lemon-text {
+  color: #f4ce14;
+}
+
+.chicago-text {
+  color: #edefee;
+  line-height: 1.5;
+}
+
+.about-text {
+  color: #edefee;
+}
+
+.restaurant-chef-img {
+  border-radius: 10px;
+  z-index: 1;
+  margin-bottom: -80px;
 }
