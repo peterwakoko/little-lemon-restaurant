@@ -62,7 +62,8 @@ nav ul li:hover {
 .delivery-flex {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
 }
 
 .delivery-flex div {
@@ -122,28 +123,30 @@ nav ul li:hover {
 }
 
 .img-top-round {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  /* border: 1px solid red; */
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
 }
 
-.specials-container {
+.card-text {
+  position: relative;
   background: #edefee;
-  display: flex;
-  flex-direction: column;
+  width: 290px;
+  height: 210px;
+  margin-top: -4px;
+}
+
+.order {
+  position: absolute;
+  bottom: 20px;
+  font-weight: 600;
 }
 
 .price {
   color: #ee9972;
 }
 
-.title-price {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* border: 1px solid red; */
-  margin-right: 16px;
-}
-
-.card-text {
-  /* margin-left: 46px; */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
 }
