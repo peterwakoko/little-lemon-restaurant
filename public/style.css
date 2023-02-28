@@ -133,6 +133,7 @@ nav ul li:hover {
   width: 290px;
   height: 210px;
   margin-top: -4px;
+  line-height: 1.5;
 }
 
 .order {
@@ -148,5 +149,4 @@ nav ul li:hover {
 .card {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
 }
