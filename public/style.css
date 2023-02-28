@@ -56,12 +56,13 @@ nav ul li:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 90px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .delivery-flex {
   display: flex;
   justify-content: center;
+  border: 1px solid red;
 }
 
 .delivery-flex div {
@@ -118,4 +119,31 @@ nav ul li:hover {
   border-radius: 10px;
   z-index: 1;
   margin-bottom: -80px;
+}
+
+.img-top-round {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* border: 1px solid red; */
+}
+
+.specials-container {
+  background: #edefee;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  color: #ee9972;
+}
+
+.title-price {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* border: 1px solid red; */
+  margin-right: 16px;
+}
+
+.card-text {
+  /* margin-left: 46px; */
 }
