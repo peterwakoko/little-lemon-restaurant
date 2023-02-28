@@ -1,6 +1,7 @@
 import OnlineMenuButton from "../components/OnlineMenuButton";
 import RestaurantChefImage from "../components/RestaurantChefImage";
 import HeroLeft from "../components/HeroLeft";
+import restaurantfood from "../assets/images/restaurantfood.jpg";
 function Homepage() {
   return (
     <>
@@ -14,6 +15,13 @@ function Homepage() {
       </div>
       <div className="delivery-flex">
         <div>
+          <img
+            src={restaurantfood}
+            alt="restaurant food"
+            width={290}
+            height={310}
+            className="restaurant-chef-img"
+          />
           Greed salad $12.99
           <p>The famous greek salad of</p>
           <p>crispy lettuce, peppers, olives</p>
